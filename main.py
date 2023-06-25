@@ -60,7 +60,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 f = open('./modules/save/config','r',encoding='utf-8')
-token = 'MTAzNjE1NjMwOTE4NTI0MTE0OA.GoElmq.8OxmbpQ1k8XcUD6GtpmSt880QJPfWUK04oPsb8'
+token = f.readline().rstrip('\n')
 f.close()
 print("다음으로 로그인 :",token)
 # 1-6에서 생성된 토큰을 이곳에 입력해주세요.
