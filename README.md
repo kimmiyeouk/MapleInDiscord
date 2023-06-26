@@ -15,11 +15,13 @@ Kimmiyeouk의 개인 오픈소스 프로젝트입니다.
 # 버전 기록
 
 * Ver 0.1.0 Development Build
-  최초 개발자 빌드
+  * 최초 개발자 빌드
 
 * Ver 0.1.1 Development Build
- GitHub 커밋 테스트
+  * GitHub 커밋 테스트
 
 * Ver 0.1.2 Development Build
-  다음과 같은 오류 수정:
-   - Config 파일에 토큰을 넣어도 Discord Development Application 적용이 되지 않았던 문제 수정
+  * 다음과 같은 오류 수정:
+    - Config 파일에 토큰을 넣어도 Discord Development Application 적용이 되지 않았던 문제 수정
+   
+  * 용도 없는 main.cpp 파일 삭제
